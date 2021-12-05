@@ -39,7 +39,7 @@
 				&trans &trans &kp UP &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &kp END
 				&trans    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &kp DEL
 				&kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp UP
-				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &kp LEFT   &kp DOWN &kp RIGHT
+				&trans &kp C_POWER  &kp K_POWER              &trans                            &trans   &kp LEFT   &kp DOWN &kp RIGHT
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
