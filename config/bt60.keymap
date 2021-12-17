@@ -21,7 +21,7 @@
 				&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH             &mt RSHFT UP &kp END
 				&kp LCTRL &kp LGUI &kp LALT            &kp SPACE                          &kp RALT  &lt 1 LEFT &mt K_CMENU DOWN &mt RCTRL RIGHT
 			>;
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+			sensor-bindings = <&inc_dec_kp UP DOWN>;
 		};
 		raise {
 			bindings = <
@@ -31,7 +31,7 @@
 				&kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT
 				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &bt BT_CLR
 			>;
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
 		};
 		arrows {
 			bindings = <
